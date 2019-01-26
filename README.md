@@ -8,3 +8,7 @@ Installation method:
    - Install python headers (sudo apt-get install python-dev)
    - Clone repo to new gpio dir in your home dir (git clone <git repo url> clone gpio)
    - Chage dir to gpio and run install script (python setup.py install)
+
+Set Scheduled job script for OMV at reboot:
+   - sleep 30 && nohup python /root/fan.py &
+
